@@ -42,7 +42,7 @@ fetch('products.json')
       }
     };
   });
-products.forEach(product => {
+{ products.forEach(product =>
 console.log(product.original_price + " ريال"); // السعر الأصلي
 console.log(product.price_after_discount + " ريال"); // السعر بعد الخصم
 });
