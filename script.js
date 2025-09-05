@@ -42,13 +42,13 @@ fetch('products.json')
       }
     };
   });
-1et product = { 
-  name : " ملصقات سينيور 1447-2026 " 
-  original_price : 45 ,
-  discount_percent : 33.3 ,
-price_after_discount : 30
+
+// كود تجريبي منفصل (فقط إذا كنت تحتاجه)
+let product = { 
+  name : "ملصقات سينيور 1447-2026",
+  original_price : 45,
+  discount_percent : 33.3,
+  price_after_discount : 30
 };
 console.log(product.original_price + " ريال " );
 console.log(" الخصم "+ product.discount_percent + " % " );
-
-});
