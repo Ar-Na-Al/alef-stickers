@@ -28,8 +28,9 @@
 "name": "ملصقات سينيور 1447-2026 ",
 "description": " تصميم ملصقات لخريجات دفعة 1447-2026 باشكال مميّزة وجديدة خاصة بالمصممة الِف ، التصميم جاهز للطباعة بجودة عاليه pdf يمكن استخدامة كتوزيعات او للاهداء او للاستخدام الشخصي  ",
 "image": "Glossy_A4_Paper_Mockup_5 (3).png",
-"original_price": "45 ريال "
- , "discount" : "33.3%",
+"original_price": 45, 
+ "discount_percent" : 33.3 ,
+"price_after_discount" : 30
 }
 
 ]
