@@ -42,7 +42,11 @@ fetch('products.json')
       }
     };
   });
-{ products.forEach(product =>
-console.log(product.original_price + " ريال"); // السعر الأصلي
-console.log(product.price_after_discount + " ريال"); // السعر بعد الخصم
+1et product = { 
+  name : " ملصقات سينيور 1447-2026 " 
+  original_price : 45 ,
+  discount_percent : 33.3 ,
+price_after_discount : 30
+}
+};
 });
