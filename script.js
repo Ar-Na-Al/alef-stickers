@@ -47,6 +47,8 @@ fetch('products.json')
   original_price : 45 ,
   discount_percent : 33.3 ,
 price_after_discount : 30
-}
 };
+console.log(product.original_price + " ريال " );
+console.log(" الخصم "+ product.discount_percent + " % " );
+
 });
