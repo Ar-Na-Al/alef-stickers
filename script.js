@@ -42,15 +42,8 @@ fetch('products.json')
       }
     };
   });
-{
-fetch("products.json")
-.then(response => response.json())
-.then(products => {
-products.forEach(p => {
-console.log(
-`${p.name}: السعر الأصلي ${p.original_price} ريال - بعد الخصم ${p.price_after_discount} ريال`
-);
+products.forEach(product => {
+console.log(product.name); // يطبع اسم المنتج
+console.log(product.original_price + " ريال"); // السعر الأصلي
+console.log(product.price_after_discount + " ريال"); // السعر بعد الخصم
 });
-});
-}
-
