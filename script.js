@@ -43,7 +43,7 @@ fetch('products.json')
     };
   });
 products.forEach(product => {
-console.log(product.name); // يطبع اسم المنتج
+console.log(product.ملصقات سينيور 1447-2026); // يطبع اسم المنتج
 console.log(product.original_price + " ريال"); // السعر الأصلي
 console.log(product.price_after_discount + " ريال"); // السعر بعد الخصم
 });
